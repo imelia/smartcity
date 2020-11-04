@@ -85,3 +85,23 @@ CRITICAL - 2020-11-04 01:15:28 --> Unable to connect to the database.
 #8 E:\xampp\htdocs\smartcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
 #9 E:\xampp\htdocs\smartcity\system\Commands\Server\rewrite.php(35): require_once('E:\\xampp\\htdocs...')
 #10 {main}
+CRITICAL - 2020-11-04 02:03:40 --> Invalid file: v_modalform.php
+#0 C:\xampp\htdocs\smartcity\system\View\View.php(225): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('v_modalform.php')
+#1 C:\xampp\htdocs\smartcity\system\Common.php(1217): CodeIgniter\View\View->render('v_modalform', Array, true)
+#2 C:\xampp\htdocs\smartcity\app\Controllers\Modal.php(22): view('v_modalform')
+#3 C:\xampp\htdocs\smartcity\system\CodeIgniter.php(964): App\Controllers\Modal->form()
+#4 C:\xampp\htdocs\smartcity\system\CodeIgniter.php(449): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Modal))
+#5 C:\xampp\htdocs\smartcity\system\CodeIgniter.php(357): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\smartcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\smartcity\system\Commands\Server\rewrite.php(35): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-11-04 02:07:46 --> Invalid file: v_modaledit.php
+#0 C:\xampp\htdocs\smartcity\system\View\View.php(225): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('v_modaledit.php')
+#1 C:\xampp\htdocs\smartcity\system\Common.php(1217): CodeIgniter\View\View->render('v_modaledit', Array, true)
+#2 C:\xampp\htdocs\smartcity\app\Controllers\Modal.php(58): view('v_modaledit', Array)
+#3 C:\xampp\htdocs\smartcity\system\CodeIgniter.php(964): App\Controllers\Modal->form_edit('1')
+#4 C:\xampp\htdocs\smartcity\system\CodeIgniter.php(449): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Modal))
+#5 C:\xampp\htdocs\smartcity\system\CodeIgniter.php(357): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\smartcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\smartcity\system\Commands\Server\rewrite.php(35): require_once('C:\\xampp\\htdocs...')
+#8 {main}
