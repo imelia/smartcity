@@ -1,0 +1,74 @@
+ERROR - 2020-11-04 01:01:25 --> mysqli_sql_exception: No database selected in E:\xampp\htdocs\smartcity\system\Database\MySQLi\Connection.php:331
+Stack trace:
+#0 E:\xampp\htdocs\smartcity\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 E:\xampp\htdocs\smartcity\system\Database\BaseConnection.php(724): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 E:\xampp\htdocs\smartcity\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 E:\xampp\htdocs\smartcity\system\Database\BaseBuilder.php(1871): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\xampp\htdocs\smartcity\system\Model.php(517): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\xampp\htdocs\smartcity\app\Controllers\Home.php(35): CodeIgniter\Model->findAll()
+#6 E:\xampp\htdocs\smartcity\system\CodeIgniter.php(964): App\Controllers\Home->dashboard()
+#7 E:\xampp\htdocs\smartcity\system\CodeIgniter.php(449): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 E:\xampp\htdocs\smartcity\system\CodeIgniter.php(357): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\xampp\htdocs\smartcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 E:\xampp\htdocs\smartcity\system\Commands\Server\rewrite.php(35): require_once('E:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2020-11-04 01:01:25 --> Invalid file: dashboard.php
+#0 E:\xampp\htdocs\smartcity\system\View\View.php(225): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dashboard.php')
+#1 E:\xampp\htdocs\smartcity\system\Common.php(1217): CodeIgniter\View\View->render('dashboard', Array, true)
+#2 E:\xampp\htdocs\smartcity\app\Controllers\Home.php(42): view('dashboard', Array)
+#3 E:\xampp\htdocs\smartcity\system\CodeIgniter.php(964): App\Controllers\Home->dashboard()
+#4 E:\xampp\htdocs\smartcity\system\CodeIgniter.php(449): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 E:\xampp\htdocs\smartcity\system\CodeIgniter.php(357): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\xampp\htdocs\smartcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 E:\xampp\htdocs\smartcity\system\Commands\Server\rewrite.php(35): require_once('E:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-11-04 01:02:47 --> Class 'App\Models\Modelkategori' not found
+#0 E:\xampp\htdocs\smartcity\system\CodeIgniter.php(964): App\Controllers\Kategori->index()
+#1 E:\xampp\htdocs\smartcity\system\CodeIgniter.php(449): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+#2 E:\xampp\htdocs\smartcity\system\CodeIgniter.php(357): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\xampp\htdocs\smartcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\xampp\htdocs\smartcity\system\Commands\Server\rewrite.php(35): require_once('E:\\xampp\\htdocs...')
+#5 {main}
+ERROR - 2020-11-04 01:07:01 --> mysqli_sql_exception: No database selected in E:\xampp\htdocs\smartcity\system\Database\MySQLi\Connection.php:331
+Stack trace:
+#0 E:\xampp\htdocs\smartcity\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 E:\xampp\htdocs\smartcity\system\Database\BaseConnection.php(724): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 E:\xampp\htdocs\smartcity\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 E:\xampp\htdocs\smartcity\system\Database\BaseBuilder.php(1871): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\xampp\htdocs\smartcity\system\Model.php(517): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\xampp\htdocs\smartcity\app\Models\Modelkategori.php(10): CodeIgniter\Model->findAll()
+#6 E:\xampp\htdocs\smartcity\app\Controllers\Kategori.php(14): App\Models\Modelkategori->getKategori()
+#7 E:\xampp\htdocs\smartcity\system\CodeIgniter.php(964): App\Controllers\Kategori->index()
+#8 E:\xampp\htdocs\smartcity\system\CodeIgniter.php(449): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+#9 E:\xampp\htdocs\smartcity\system\CodeIgniter.php(357): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\xampp\htdocs\smartcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 E:\xampp\htdocs\smartcity\system\Commands\Server\rewrite.php(35): require_once('E:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2020-11-04 01:08:08 --> Error connecting to the database: Access denied for user ''@'localhost' to database 'smartcity'
+CRITICAL - 2020-11-04 01:08:08 --> Unable to connect to the database.
+#0 E:\xampp\htdocs\smartcity\system\Database\BaseConnection.php(629): CodeIgniter\Database\BaseConnection->initialize()
+#1 E:\xampp\htdocs\smartcity\system\Database\BaseBuilder.php(1871): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 E:\xampp\htdocs\smartcity\system\Model.php(517): CodeIgniter\Database\BaseBuilder->get()
+#3 E:\xampp\htdocs\smartcity\app\Models\Modelkategori.php(10): CodeIgniter\Model->findAll()
+#4 E:\xampp\htdocs\smartcity\app\Controllers\Kategori.php(14): App\Models\Modelkategori->getKategori()
+#5 E:\xampp\htdocs\smartcity\system\CodeIgniter.php(964): App\Controllers\Kategori->index()
+#6 E:\xampp\htdocs\smartcity\system\CodeIgniter.php(449): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+#7 E:\xampp\htdocs\smartcity\system\CodeIgniter.php(357): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\smartcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 E:\xampp\htdocs\smartcity\system\Commands\Server\rewrite.php(35): require_once('E:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2020-11-04 01:08:35 --> mysqli_sql_exception: No database selected in E:\xampp\htdocs\smartcity\system\Database\MySQLi\Connection.php:331
+Stack trace:
+#0 E:\xampp\htdocs\smartcity\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 E:\xampp\htdocs\smartcity\system\Database\BaseConnection.php(724): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 E:\xampp\htdocs\smartcity\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 E:\xampp\htdocs\smartcity\system\Database\BaseBuilder.php(1871): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\xampp\htdocs\smartcity\system\Model.php(517): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\xampp\htdocs\smartcity\app\Models\Modelkategori.php(10): CodeIgniter\Model->findAll()
+#6 E:\xampp\htdocs\smartcity\app\Controllers\Kategori.php(14): App\Models\Modelkategori->getKategori()
+#7 E:\xampp\htdocs\smartcity\system\CodeIgniter.php(964): App\Controllers\Kategori->index()
+#8 E:\xampp\htdocs\smartcity\system\CodeIgniter.php(449): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+#9 E:\xampp\htdocs\smartcity\system\CodeIgniter.php(357): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\xampp\htdocs\smartcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 E:\xampp\htdocs\smartcity\system\Commands\Server\rewrite.php(35): require_once('E:\\xampp\\htdocs...')
+#12 {main}
