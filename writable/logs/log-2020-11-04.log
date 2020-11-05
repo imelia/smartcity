@@ -105,3 +105,59 @@ CRITICAL - 2020-11-04 02:07:46 --> Invalid file: v_modaledit.php
 #6 C:\xampp\htdocs\smartcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
 #7 C:\xampp\htdocs\smartcity\system\Commands\Server\rewrite.php(35): require_once('C:\\xampp\\htdocs...')
 #8 {main}
+CRITICAL - 2020-11-04 18:57:43 --> Class 'App\Models\UserModel' not found
+#0 E:\xampp\htdocs\smartcity\system\CodeIgniter.php(964): App\Controllers\Login->auth()
+#1 E:\xampp\htdocs\smartcity\system\CodeIgniter.php(449): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#2 E:\xampp\htdocs\smartcity\system\CodeIgniter.php(357): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\xampp\htdocs\smartcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\xampp\htdocs\smartcity\system\Commands\Server\rewrite.php(35): require_once('E:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-11-04 19:03:18 --> Class 'App\Models\UserModel' not found
+#0 E:\xampp\htdocs\smartcity\system\CodeIgniter.php(964): App\Controllers\Login->auth()
+#1 E:\xampp\htdocs\smartcity\system\CodeIgniter.php(449): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#2 E:\xampp\htdocs\smartcity\system\CodeIgniter.php(357): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\xampp\htdocs\smartcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\xampp\htdocs\smartcity\system\Commands\Server\rewrite.php(35): require_once('E:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-11-04 19:06:37 --> Class 'App\Models\UserModel' not found
+#0 E:\xampp\htdocs\smartcity\system\CodeIgniter.php(964): App\Controllers\Login->auth()
+#1 E:\xampp\htdocs\smartcity\system\CodeIgniter.php(449): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#2 E:\xampp\htdocs\smartcity\system\CodeIgniter.php(357): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\xampp\htdocs\smartcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\xampp\htdocs\smartcity\system\Commands\Server\rewrite.php(35): require_once('E:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-11-04 19:08:43 --> Class 'App\Models\UserModel' not found
+#0 E:\xampp\htdocs\smartcity\system\CodeIgniter.php(964): App\Controllers\Login->auth()
+#1 E:\xampp\htdocs\smartcity\system\CodeIgniter.php(449): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#2 E:\xampp\htdocs\smartcity\system\CodeIgniter.php(357): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\xampp\htdocs\smartcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\xampp\htdocs\smartcity\system\Commands\Server\rewrite.php(35): require_once('E:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-11-04 19:10:55 --> Class 'App\Models\UserModel' not found
+#0 E:\xampp\htdocs\smartcity\system\CodeIgniter.php(964): App\Controllers\Login->auth()
+#1 E:\xampp\htdocs\smartcity\system\CodeIgniter.php(449): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#2 E:\xampp\htdocs\smartcity\system\CodeIgniter.php(357): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\xampp\htdocs\smartcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\xampp\htdocs\smartcity\system\Commands\Server\rewrite.php(35): require_once('E:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-11-04 19:17:32 --> Class 'App\Models\UserModel' not found
+#0 E:\xampp\htdocs\smartcity\system\CodeIgniter.php(964): App\Controllers\Login->auth()
+#1 E:\xampp\htdocs\smartcity\system\CodeIgniter.php(449): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#2 E:\xampp\htdocs\smartcity\system\CodeIgniter.php(357): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\xampp\htdocs\smartcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\xampp\htdocs\smartcity\system\Commands\Server\rewrite.php(35): require_once('E:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-11-04 19:17:54 --> Class 'App\Models\UserModel' not found
+#0 E:\xampp\htdocs\smartcity\system\CodeIgniter.php(964): App\Controllers\Login->auth()
+#1 E:\xampp\htdocs\smartcity\system\CodeIgniter.php(449): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#2 E:\xampp\htdocs\smartcity\system\CodeIgniter.php(357): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\xampp\htdocs\smartcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\xampp\htdocs\smartcity\system\Commands\Server\rewrite.php(35): require_once('E:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-11-04 19:21:47 --> Class 'App\Models\UserModel' not found
+#0 E:\xampp\htdocs\smartcity\system\CodeIgniter.php(964): App\Controllers\Login->auth()
+#1 E:\xampp\htdocs\smartcity\system\CodeIgniter.php(449): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#2 E:\xampp\htdocs\smartcity\system\CodeIgniter.php(357): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\xampp\htdocs\smartcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\xampp\htdocs\smartcity\system\Commands\Server\rewrite.php(35): require_once('E:\\xampp\\htdocs...')
+#5 {main}
