@@ -1,0 +1,31 @@
+header h1{
+	font-family: 'Great Vibes', cursive;
+	font-size: 48px;
+	font-weight: bold;
+	text-align: center;
+	color: white;
+    text-shadow: 2px 2px 2px #000000;
+}
+.ket{
+	margin-top: -10px;
+	font-family: 'Lato', Calibri, Arial, sans-serif;
+	font-size: 16px;
+	text-align: center;
+	color: white;
+    text-shadow: 2px 2px 2px #000000;
+}
+.logo{
+	margin-top: 40px;
+	height: 170px;
+	margin-left: auto;
+    margin-right: auto;
+}
+#myVideo {
+	background-image: url("/tema/kominfo_kab_situbondo/portal/images/situbondo-pantai.jpg");
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -999;
+}

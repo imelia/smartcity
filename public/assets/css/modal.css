@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,700');
+ 
+body{
+  background: #f1f1ff;
+  font-family:Quicksand,sans-serif;
+  text-align:center;
+}
+    
+.modal{
+		
+	display:none;
+	position: fixed;
+	left: 0;
+	top:0;
+	height: 100%;
+	width:100%;
+	overflow: auto;
+}
+
+.modal-body{
+		
+    padding:10px 20px;
+            
+}
+/* Modal Header */
+.modal-header {
+  padding: 2px 16px;
+  background-color: white;
+  color: white;
+}
+.modal-content {
+    height: 100%;
+    border-radius: 0;
+    color:#333;
+    overflow:auto;
+}
+.close {
+    color:black ! important;
+    opacity:1.0;
+}
+
+
+/* Add Animation */
+@keyframes animatetop {
+  from {top: -300px; opacity: 0}
+  to {top: 0; opacity: 1}
+}
