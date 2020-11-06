@@ -184,7 +184,6 @@
                       <th>No</th>
                       <th>Gambar</th>
                       <th>Judul Kategori</th>
-                      <th>Link</th>
                      
                     </tr>
                   </thead>
@@ -197,7 +196,6 @@
                         }
                     ?></td>
                     <td><?=$row['judul_kategori'];?></td>
-                    <td><?=$row['link'];?></td>
                     
                 </tr>
                 <?php endforeach;?>

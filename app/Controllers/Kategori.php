@@ -34,14 +34,13 @@ class Kategori extends BaseController
         if ($validation == FALSE) {
         $data = array(
             'judul_kategori'  => $this->request->getPost('judul_kategori'),
-            'link'  => $this->request->getPost('link'),
+            
         );
         } else {
             $upload = $this->request->getFile('file_upload');
             $upload->move(WRITEPATH . '../public/assets/img/kategori/');
         $data = array(
             'judul_kategori'  => $this->request->getPost('judul_kategori'),
-            'link'  => $this->request->getPost('link'),
             'gambar_kategori' => $upload->getName(),
         );
         }
@@ -69,7 +68,7 @@ class Kategori extends BaseController
         if ($validation == FALSE) {
         $data = array(
             'judul_kategori'  => $this->request->getPost('judul_kategori'),
-            'link'  => $this->request->getPost('link'),
+            
            
         );
         } else {
@@ -81,7 +80,6 @@ class Kategori extends BaseController
             $upload->move(WRITEPATH . '../public/assets/img/kategori/');
         $data = array(
             'judul_kategori'  => $this->request->getPost('judul_kategori'),
-            'link'  => $this->request->getPost('link'),
             'gambar_kategori' => $upload->getName(),
             
         );
