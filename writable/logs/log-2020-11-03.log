@@ -1,0 +1,10 @@
+CRITICAL - 2020-11-03 20:22:33 --> Invalid file: home.php
+#0 C:\xampp\htdocs\smartcity\system\View\View.php(225): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('home.php')
+#1 C:\xampp\htdocs\smartcity\system\Common.php(1217): CodeIgniter\View\View->render('home', Array, true)
+#2 C:\xampp\htdocs\smartcity\app\Controllers\Home.php(11): view('home', Array)
+#3 C:\xampp\htdocs\smartcity\system\CodeIgniter.php(964): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\smartcity\system\CodeIgniter.php(449): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\smartcity\system\CodeIgniter.php(357): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\smartcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\smartcity\system\Commands\Server\rewrite.php(35): require_once('C:\\xampp\\htdocs...')
+#8 {main}
