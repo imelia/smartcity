@@ -36,7 +36,7 @@
     </div>
     
   <h1 style="font-weight: bold;">probolinggokab<span style="color: #2fb8f2;">.go.id</span></h1></a>
-  <p class="ket" style="margin-top: 20px;"> <a id="website" href="#"><img class="logo img-responsive" style="width: 20%; height: auto;" src="<?php echo base_url() ?>/assets/img/button.png"></a></p>
+  <p class="ket" style="margin-top: 20px;"> <a id="website" href="<?php echo base_url() ?>/login/"><img class="logo img-responsive" style="width: 20%; height: auto;" src="<?php echo base_url() ?>/assets/img/button.png"></a></p>
   </div>
 </header>
 
@@ -150,7 +150,7 @@
 </div>
 
 <video autoplay muted loop id="myVideo">
-  <source src="<?php echo base_url() ?>/assets/prob.mp4" type="video/mp4">
+  <source src="<?php echo base_url() ?>/assets/endless.mp4" type="video/mp4">
 </video>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 <script src="<?php echo base_url() ?>/assets/js/grid.js"></script>
