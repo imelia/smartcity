@@ -17,25 +17,11 @@ class Home extends BaseController
 
   public function index()
   {
-<<<<<<< Updated upstream
-        $session = session();
-        echo "Welcome back, ".$session->get('user_email');
-    $data = [
-      'judul' => 'Tampilan Admin'
-    ];
-
-    echo view('template/v_header', $data);
-    echo view('template/v_sidebar');
-    echo view('template/v_topbar');
-    echo view('home/index');
-    echo view('template/v_footer');
-=======
     $data =[
       'title' => 'Home',
       'content' => 'situbondo',
     ];
     echo view('situbondo', $data);
->>>>>>> Stashed changes
   }
 
   public function dashboard()
