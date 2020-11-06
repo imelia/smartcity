@@ -196,7 +196,6 @@
                       <th>No</th>
                       <th>Gambar</th>
                       <th>Judul Kategori</th>
-                      <th>Link</th>
                       <th>Aksi</th>
                     </tr>
                   </thead>
@@ -209,7 +208,7 @@
                         }
                     ?></td>
                     <td><?=$row['judul_kategori'];?></td>
-                    <td><?=$row['link'];?></td>
+                 
                     
                     <td><a href="kategori/form_edit/<?=$row['id_kategori'];?>" class="btn btn-primary" onclick="return confirm('Apakah Anda yakin ingin mengedit kategori <?php echo $row['judul_kategori']; ?> ini?')">Edit</a> | <a href="kategori/hapus/<?=$row['id_kategori'];?>" class="btn btn-danger" onclick="return confirm('Apakah Anda yakin ingin menghapus kategori <?php echo $row['judul_kategori']; ?> ini?')">Hapus</a> </td>
                 </tr>

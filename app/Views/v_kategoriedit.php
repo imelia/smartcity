@@ -37,13 +37,6 @@
                    		 <input type="text" name="judul_kategori" class="form-control" value="<?=$kategori->judul_kategori?>"> 
                 	</div>	
     			</div>
-                <div class="col-md-12">
-    				<label>LINK</label>
-    				<div class="form-group">
-                        <input type="hidden" name="id" class="form-control" value="<?=$kategori->link?>">
-                   		 <input type="text" name="link" class="form-control" value="<?=$kategori->link?>"> 
-                	</div>	
-    			</div>
 
     			<div class="col-md-12">
     				<div class="form-group">

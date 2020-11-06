@@ -161,3 +161,63 @@ CRITICAL - 2020-11-04 19:21:47 --> Class 'App\Models\UserModel' not found
 #3 E:\xampp\htdocs\smartcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
 #4 E:\xampp\htdocs\smartcity\system\Commands\Server\rewrite.php(35): require_once('E:\\xampp\\htdocs...')
 #5 {main}
+CRITICAL - 2020-11-04 20:40:06 --> `App\Models\Modeldashboard` model class does not specify a Primary Key.
+#0 C:\xampp\htdocs\smartcity\system\Model.php(1472): CodeIgniter\Exceptions\ModelException::forNoPrimaryKey('App\\Models\\Mode...')
+#1 C:\xampp\htdocs\smartcity\system\Model.php(509): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\smartcity\app\Controllers\Home.php(35): CodeIgniter\Model->findAll()
+#3 C:\xampp\htdocs\smartcity\system\CodeIgniter.php(964): App\Controllers\Home->dashboard()
+#4 C:\xampp\htdocs\smartcity\system\CodeIgniter.php(449): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\smartcity\system\CodeIgniter.php(357): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\smartcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\smartcity\system\Commands\Server\rewrite.php(35): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-11-04 20:40:10 --> `App\Models\Modeldashboard` model class does not specify a Primary Key.
+#0 C:\xampp\htdocs\smartcity\system\Model.php(1472): CodeIgniter\Exceptions\ModelException::forNoPrimaryKey('App\\Models\\Mode...')
+#1 C:\xampp\htdocs\smartcity\system\Model.php(509): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\smartcity\app\Controllers\Home.php(35): CodeIgniter\Model->findAll()
+#3 C:\xampp\htdocs\smartcity\system\CodeIgniter.php(964): App\Controllers\Home->dashboard()
+#4 C:\xampp\htdocs\smartcity\system\CodeIgniter.php(449): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\smartcity\system\CodeIgniter.php(357): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\smartcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\smartcity\system\Commands\Server\rewrite.php(35): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-11-04 21:17:05 --> `App\Models\Modeldashboard` model class does not specify a Primary Key.
+#0 C:\xampp\htdocs\smartcity\system\Model.php(1472): CodeIgniter\Exceptions\ModelException::forNoPrimaryKey('App\\Models\\Mode...')
+#1 C:\xampp\htdocs\smartcity\system\Model.php(509): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\smartcity\app\Controllers\Home.php(35): CodeIgniter\Model->findAll()
+#3 C:\xampp\htdocs\smartcity\system\CodeIgniter.php(964): App\Controllers\Home->dashboard()
+#4 C:\xampp\htdocs\smartcity\system\CodeIgniter.php(449): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\smartcity\system\CodeIgniter.php(357): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\smartcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\smartcity\system\Commands\Server\rewrite.php(35): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-11-04 21:58:57 --> `App\Models\Modeldashboard` model class does not specify a Primary Key.
+#0 C:\xampp\htdocs\smartcity\system\Model.php(1472): CodeIgniter\Exceptions\ModelException::forNoPrimaryKey('App\\Models\\Mode...')
+#1 C:\xampp\htdocs\smartcity\system\Model.php(509): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\smartcity\app\Controllers\Home.php(35): CodeIgniter\Model->findAll()
+#3 C:\xampp\htdocs\smartcity\system\CodeIgniter.php(964): App\Controllers\Home->dashboard()
+#4 C:\xampp\htdocs\smartcity\system\CodeIgniter.php(449): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\smartcity\system\CodeIgniter.php(357): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\smartcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\smartcity\system\Commands\Server\rewrite.php(35): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-11-04 21:59:52 --> `App\Models\Modeldashboard` model class does not specify a Primary Key.
+#0 C:\xampp\htdocs\smartcity\system\Model.php(1472): CodeIgniter\Exceptions\ModelException::forNoPrimaryKey('App\\Models\\Mode...')
+#1 C:\xampp\htdocs\smartcity\system\Model.php(509): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\smartcity\app\Controllers\Home.php(35): CodeIgniter\Model->findAll()
+#3 C:\xampp\htdocs\smartcity\system\CodeIgniter.php(964): App\Controllers\Home->dashboard()
+#4 C:\xampp\htdocs\smartcity\system\CodeIgniter.php(449): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\smartcity\system\CodeIgniter.php(357): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\smartcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\smartcity\system\Commands\Server\rewrite.php(35): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-11-04 22:00:18 --> `App\Models\Modeldashboard` model class does not specify a Primary Key.
+#0 C:\xampp\htdocs\smartcity\system\Model.php(1472): CodeIgniter\Exceptions\ModelException::forNoPrimaryKey('App\\Models\\Mode...')
+#1 C:\xampp\htdocs\smartcity\system\Model.php(509): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\smartcity\app\Controllers\Home.php(35): CodeIgniter\Model->findAll()
+#3 C:\xampp\htdocs\smartcity\system\CodeIgniter.php(964): App\Controllers\Home->dashboard()
+#4 C:\xampp\htdocs\smartcity\system\CodeIgniter.php(449): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\smartcity\system\CodeIgniter.php(357): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\smartcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\smartcity\system\Commands\Server\rewrite.php(35): require_once('C:\\xampp\\htdocs...')
+#8 {main}
