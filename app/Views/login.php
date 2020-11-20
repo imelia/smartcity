@@ -53,9 +53,9 @@
                     <a href="/home" class="btn btn-primary btn-user btn-block" >Go to Portal</a>
                   </form>
                   <hr>
-                  <div class="text-center">
+                  <!--<div class="text-center">
                     <a class="small" href="/assets/forgot-password.html">Lupa Password?</a>
-                  </div>
+                  </div>-->
                   <div class="text-center">
                     <a class="small" href="/register">Belum memiliki akun? Register!</a>
                   </div>
