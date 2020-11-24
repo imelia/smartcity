@@ -24,13 +24,26 @@
                     <div class="form-group">
                          <input type="file" name="file_upload" class="form-control is-invalid"> 
                     </div>  
+				</div>
+				<div class="col-md-12">
+                    <label>Photo</label>
+                    <div class="form-group">
+                         <input type="file" name="image_upload" class="form-control is-invalid"> 
+                    </div>  
                 </div>
     			<div class="col-md-12">
     				<label>JUDUL MODAL</label>
     				<div class="form-group">
                    		 <input type="text" name="judul_modal" class="form-control"> 
                 	</div>	
-    			</div>
+				</div>
+				<div class="col-md-12">
+    				<label>JUDUL MODAL</label>
+    				<div class="form-group">
+                   		 <input type="text" name="judul_kategori" class="form-control"> 
+                	</div>	
+				</div>
+				
                 <div class="col-md-12">
     				<label>DESKRIPSI</label>
     				<div class="form-group">

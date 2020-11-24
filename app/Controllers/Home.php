@@ -19,9 +19,9 @@ class Home extends BaseController
   {
     $data =[
       'title' => 'Home',
-      'content' => 'situbondo',
+      'content' => 'smart',
     ];
-    echo view('situbondo', $data);
+    echo view('smart', $data);
   }
 
   public function dashboard()

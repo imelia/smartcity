@@ -3,7 +3,7 @@ use CodeIgniter\Model;
  
 class Modelkategori extends Model
 {
-    protected $table = 'kategori';
+    protected $table = 'modal';
      
     public function getKategori()
     {

@@ -1,0 +1,36 @@
+ERROR - 2020-11-19 20:02:31 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2020-11-19 20:02:31 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\smartcity\system\Database\BaseConnection.php(629): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\smartcity\system\Database\BaseBuilder.php(1871): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\smartcity\system\Model.php(517): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\smartcity\app\Controllers\User.php(20): CodeIgniter\Model->findAll()
+#4 C:\xampp\htdocs\smartcity\system\CodeIgniter.php(964): App\Controllers\User->index()
+#5 C:\xampp\htdocs\smartcity\system\CodeIgniter.php(449): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 C:\xampp\htdocs\smartcity\system\CodeIgniter.php(357): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\smartcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\smartcity\system\Commands\Server\rewrite.php(35): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+ERROR - 2020-11-19 20:02:38 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2020-11-19 20:02:38 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\smartcity\system\Database\BaseConnection.php(629): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\smartcity\system\Database\BaseBuilder.php(1871): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\smartcity\system\Model.php(517): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\smartcity\app\Controllers\User.php(20): CodeIgniter\Model->findAll()
+#4 C:\xampp\htdocs\smartcity\system\CodeIgniter.php(964): App\Controllers\User->index()
+#5 C:\xampp\htdocs\smartcity\system\CodeIgniter.php(449): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 C:\xampp\htdocs\smartcity\system\CodeIgniter.php(357): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\smartcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\smartcity\system\Commands\Server\rewrite.php(35): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-11-19 21:15:51 --> Invalid file: situbondo.php
+#0 C:\xampp\htdocs\smartcity\system\View\View.php(225): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('situbondo.php')
+#1 C:\xampp\htdocs\smartcity\system\Common.php(1217): CodeIgniter\View\View->render('situbondo', Array, true)
+#2 C:\xampp\htdocs\smartcity\app\Controllers\Home.php(24): view('situbondo', Array)
+#3 C:\xampp\htdocs\smartcity\system\CodeIgniter.php(964): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\smartcity\system\CodeIgniter.php(449): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\smartcity\system\CodeIgniter.php(357): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\smartcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\smartcity\system\Commands\Server\rewrite.php(35): require_once('C:\\xampp\\htdocs...')
+#8 {main}

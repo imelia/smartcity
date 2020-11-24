@@ -36,6 +36,13 @@
                         <input type="hidden" name="id_modal" class="form-control" value="<?=$modal->id_modal?>">
                    		 <input type="text" name="judul_modal" class="form-control" value="<?=$modal->judul_modal?>"> 
                 	</div>	
+                </div>
+                <div class="col-md-12">
+    				<label>JUDUL KATEGORI</label>
+    				<div class="form-group">
+                        <input type="hidden" name="id_kategori" class="form-control" value="<?=$modal->judul_kategori?>">
+                   		 <input type="text" name="judul_kategori" class="form-control" value="<?=$modal->judul_kategori?>"> 
+                	</div>	
     			</div>
                 <div class="col-md-12">
     				<label>DESKRIPSI</label>

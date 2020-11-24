@@ -20,6 +20,11 @@ header h1{
 	margin-left: auto;
     margin-right: auto;
 }
+.gradient {
+	text-align: center;
+	background: -webkit-linear-gradient;
+	
+}
 #myVideo {
 	background-image: url("/tema/kominfo_kab_situbondo/portal/images/situbondo-pantai.jpg");
     position: fixed;

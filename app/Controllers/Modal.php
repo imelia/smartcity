@@ -30,10 +30,16 @@ class Modal extends BaseController
         $validation = $this->validate([
             'file_upload' => 'uploaded[file_upload]|mime_in[file_upload,image/jpg,image/jpeg,image/gif,image/png]|max_size[file_upload,4096]'
         ]);
- 
+        if ($this->request->getMethod() !== 'post') {
+            return redirect()->to('modal');
+        }
+        $validation = $this->validate([
+            'image_upload' => 'uploaded[file_upload]|mime_in[file_upload,image/jpg,image/jpeg,image/gif,image/png]|max_size[file_upload,4096]'
+        ]);
         if ($validation == FALSE) {
         $data = array(
             'judul_modal'  => $this->request->getPost('judul_modal'),
+            'judul_kategori'  => $this->request->getPost('judul_kategori'),
             'deskripsi'  => $this->request->getPost('deskripsi'),
             'link_modal'  => $this->request->getPost('link_modal'),
         );
@@ -42,6 +48,7 @@ class Modal extends BaseController
             $upload->move(WRITEPATH . '../public/assets/img/modal/');
         $data = array(
             'judul_modal'  => $this->request->getPost('judul_modal'),
+            'judul_kategori'  => $this->request->getPost('judul_kategori'),
             'deskripsi'  => $this->request->getPost('deskripsi'),
             'link_modal'  => $this->request->getPost('link_modal'),
             'gambar_modal' => $upload->getName(),
@@ -71,6 +78,7 @@ class Modal extends BaseController
         if ($validation == FALSE) {
         $data = array(
             'judul_modal'  => $this->request->getPost('judul_modal'),
+            'judul_kategori'  => $this->request->getPost('judul_kategori'),
             'deskripsi'  => $this->request->getPost('deskripsi'),
             'link_modal'  => $this->request->getPost('link_modal'),
            
@@ -84,6 +92,7 @@ class Modal extends BaseController
             $upload->move(WRITEPATH . '../public/assets/img/modal/');
         $data = array(
             'judul_modal'  => $this->request->getPost('judul_modal'),
+            'judul_kategori'  => $this->request->getPost('judul_kategori'),
             'deskripsi'  => $this->request->getPost('deskripsi'),
             'link_modal'  => $this->request->getPost('link_modal'),
             'gambar_modal' => $upload->getName(),

@@ -195,6 +195,8 @@
                     <tr>
                       <th>No</th>
                       <th>Gambar</th>
+                      <th>GambarK</th>
+                      <th>Judul Modal</th>
                       <th>Judul Modal</th>
                       <th>Deskripsi</th>
                       <th>Link</th>
@@ -209,7 +211,13 @@
                             echo '<img src="'.base_url("assets/img/modal/$row[gambar_modal]").'" width="100">';
                         }
                     ?></td>
+                    <td><?php
+                        if (!empty($row["gambar_kategori"])) {
+                            echo '<img src="'.base_url("assets/img/modal/$row[gambar_kategori]").'" width="100">';
+                        }
+                    ?></td>
                     <td><?=$row['judul_modal'];?></td>
+                    <td><?=$row['judul_kategori'];?></td>
                     <td><?=$row['deskripsi'];?></td>
                     <td><?=$row['link_modal'];?></td>
                     
