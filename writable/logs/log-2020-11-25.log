@@ -1,0 +1,14 @@
+ERROR - 2020-11-25 00:50:13 --> mysqli_sql_exception: Unknown column 'judul_kategori' in 'field list' in C:\xampp\htdocs\smartcity\system\Database\MySQLi\Connection.php:331
+Stack trace:
+#0 C:\xampp\htdocs\smartcity\system\Database\MySQLi\Connection.php(331): mysqli->query('INSERT INTO `mo...')
+#1 C:\xampp\htdocs\smartcity\system\Database\BaseConnection.php(724): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `mo...')
+#2 C:\xampp\htdocs\smartcity\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `mo...')
+#3 C:\xampp\htdocs\smartcity\system\Database\BaseBuilder.php(2268): CodeIgniter\Database\BaseConnection->query('INSERT INTO `mo...', Array, false)
+#4 C:\xampp\htdocs\smartcity\app\Models\Modelmodal.php(14): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\smartcity\app\Controllers\Modal.php(57): App\Models\Modelmodal->SimpanModal(Array)
+#6 C:\xampp\htdocs\smartcity\system\CodeIgniter.php(964): App\Controllers\Modal->simpan()
+#7 C:\xampp\htdocs\smartcity\system\CodeIgniter.php(449): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Modal))
+#8 C:\xampp\htdocs\smartcity\system\CodeIgniter.php(357): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\smartcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\smartcity\system\Commands\Server\rewrite.php(35): require_once('C:\\xampp\\htdocs...')
+#11 {main}
