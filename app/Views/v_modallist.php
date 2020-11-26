@@ -52,20 +52,20 @@
 <hr class="sidebar-divider">
 
 <!-- Heading -->
-<div class="sidebar-heading">
+<!--<div class="sidebar-heading">
   Member
-</div>
+</div>-->
 
 <!-- Nav Item - Pages Collapse Menu -->
-<li class="nav-item">
+<!--<li class="nav-item">
   <a class="nav-link collapsed" href="<?= base_url('kategori'); ?>"> 
     <i class="fas fa-fw fa-table"></i>
-    <span>Data Kategori</span>
+    <span>Data Kategori</span>-->
   </a>
   <li class="nav-item">
   <a class="nav-link collapsed" href="<?= base_url('modal'); ?>"> 
     <i class="fas fa-fw fa-table"></i>
-    <span>Data Modal</span>
+    <span>Data Master</span>
   </a>
   <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
     <div class="bg-white py-2 collapse-inner rounded">
@@ -167,7 +167,7 @@
           <!-- Page Heading -->
           <h1 class="h3 mb-2 text-gray-800">Tables</h1>
           <p class="mb-4"></a></p>
-          <a href="/modal/form" class="btn btn-primary"  onclick="return confirm('Apakah Anda yakin ?')"><span class="fa fa-plus"></span> Input Data Modal</a>
+          <a href="/modal/form" class="btn btn-primary"  onclick="return confirm('Apakah Anda yakin ?')"><span class="fa fa-plus"></span> Input Data Master</a>
           <hr>
             <?php if(!empty(session()->getFlashdata('berhasil'))){ ?>
                 <div class="alert alert-success">
@@ -195,9 +195,9 @@
                     <tr>
                       <th>No</th>
                       <th>Gambar</th>
-                      <th>GambarK</th>
+                      <th>Gambar kategori</th>
                       <th>Judul Modal</th>
-                      <th>Judul Modal</th>
+                      <th>Judul Kategori</th>
                       <th>Deskripsi</th>
                       <th>Link</th>
                       <th>Aksi</th>

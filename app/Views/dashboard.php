@@ -9,7 +9,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>Data Kategori</title>
+  <title>SELAMAT DATANG DI ADMIN</title>
 
   <!-- Custom fonts for this template -->
   <link href="<?php echo base_url() ?>/assets/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
@@ -52,20 +52,20 @@
 <hr class="sidebar-divider">
 
 <!-- Heading -->
-<div class="sidebar-heading">
+<!--<div class="sidebar-heading">
   Member
-</div>
+</div>-->
 
 <!-- Nav Item - Pages Collapse Menu -->
-<li class="nav-item">
+<!--<li class="nav-item">
   <a class="nav-link collapsed" href="<?= base_url('kategori'); ?>"> 
     <i class="fas fa-fw fa-table"></i>
-    <span>Data Kategori</span>
+    <span>Data Kategori</span>-->
   </a>
   <li class="nav-item">
   <a class="nav-link collapsed" href="<?= base_url('modal'); ?>"> 
     <i class="fas fa-fw fa-table"></i>
-    <span>Data Modal</span>
+    <span>Data Master</span>
   </a>
   <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
     <div class="bg-white py-2 collapse-inner rounded">
@@ -163,15 +163,22 @@
 
         <!-- Begin Page Content -->
         <div class="container-fluid">
+        <div class="card-body">
+                    <h2 class="card-title">DISKOMINFO</h2>
+                    <p class="text-justify">
+                        Selamat Datang di admin SMARTCITY Diskominfo Kabupaten Probolinggo
+                    </p>
+                </div>
+            </div>
 
           <!-- Page Heading -->
-          <h1 class="h3 mb-2 text-gray-800">Tables</h1>
+          <!--<h1 class="h3 mb-2 text-gray-800">Tables</h1>
           <p class="mb-4"></a></p>
 
-          <hr>
+          <hr>-->
            
           <!-- DataTales Example -->
-          <div class="card shadow mb-4">
+          <!--<div class="card shadow mb-4">
             <div class="card-header py-3">
               <h6 class="m-0 font-weight-bold text-primary">DataTables Example</h6>
             </div>
@@ -204,7 +211,7 @@
             </div>
           </div>
 
-        </div>
+        </div>-->
         <!-- /.container-fluid -->
 
       </div>

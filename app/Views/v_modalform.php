@@ -20,19 +20,19 @@
     	<div class="col-lg-12">
     		<div class="row">
             <div class="col-md-12">
-                    <label>Photo</label>
+                    <label>Photo Modal</label>
                     <div class="form-group">
                          <input type="file" name="file_upload" class="form-control is-invalid"> 
                     </div>  
 				</div>
 				<div class="col-md-12">
-                    <label>Photo</label>
+                    <label>Photo Kategori</label>
                     <div class="form-group">
                          <input type="file" name="image_upload" class="form-control is-invalid"> 
                     </div>  
                 </div>
     			<div class="col-md-12">
-    				<label>JUDUL MODAL</label>
+    				<label>JUDUL KATEGORI</label>
     				<div class="form-group">
                    		 <input type="text" name="judul_modal" class="form-control"> 
                 	</div>	
