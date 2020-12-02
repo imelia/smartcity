@@ -199,6 +199,7 @@
                       <th>Judul Modal</th>
                       <th>Judul Kategori</th>
                       <th>Deskripsi</th>
+                      <th>Nama Aplikasi</th>
                       <th>Link</th>
                       <th>Aksi</th>
                     </tr>
@@ -219,6 +220,7 @@
                     <td><?=$row['judul_modal'];?></td>
                     <td><?=$row['judul_kategori'];?></td>
                     <td><?=$row['deskripsi'];?></td>
+                    <td><?=$row['nama_apk'];?></td>
                     <td><?=$row['link_modal'];?></td>
                     
                     <td><a href="modal/form_edit/<?=$row['id_modal'];?>" class="btn btn-primary" onclick="return confirm('Apakah Anda yakin ingin mengedit modal <?php echo $row['judul_modal']; ?> ini?')">Edit</a> | <a href="modal/hapus/<?=$row['id_modal'];?>" class="btn btn-danger" onclick="return confirm('Apakah Anda yakin ingin menghapus modal <?php echo $row['judul_modal']; ?> ini?')">Hapus</a> </td>

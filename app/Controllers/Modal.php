@@ -41,6 +41,7 @@ class Modal extends BaseController
             'judul_modal'  => $this->request->getPost('judul_modal'),
             'judul_kategori'  => $this->request->getPost('judul_kategori'),
             'deskripsi'  => $this->request->getPost('deskripsi'),
+            'nama_apk'  => $this->request->getPost('nama_apk'),
             'link_modal'  => $this->request->getPost('link_modal'),
         );
         } else {
@@ -50,6 +51,7 @@ class Modal extends BaseController
             'judul_modal'  => $this->request->getPost('judul_modal'),
             'judul_kategori'  => $this->request->getPost('judul_kategori'),
             'deskripsi'  => $this->request->getPost('deskripsi'),
+            'nama_apk'  => $this->request->getPost('nama_apk'),
             'link_modal'  => $this->request->getPost('link_modal'),
             'gambar_modal' => $upload->getName(),
         );
@@ -80,6 +82,7 @@ class Modal extends BaseController
             'judul_modal'  => $this->request->getPost('judul_modal'),
             'judul_kategori'  => $this->request->getPost('judul_kategori'),
             'deskripsi'  => $this->request->getPost('deskripsi'),
+            'nama_apk'  => $this->request->getPost('nama_apk'),
             'link_modal'  => $this->request->getPost('link_modal'),
            
         );
@@ -94,6 +97,7 @@ class Modal extends BaseController
             'judul_modal'  => $this->request->getPost('judul_modal'),
             'judul_kategori'  => $this->request->getPost('judul_kategori'),
             'deskripsi'  => $this->request->getPost('deskripsi'),
+            'nama_apk'  => $this->request->getPost('nama_apk'),
             'link_modal'  => $this->request->getPost('link_modal'),
             'gambar_modal' => $upload->getName(),
             

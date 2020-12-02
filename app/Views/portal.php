@@ -45,12 +45,13 @@
                 <a href="#" data-largesrc="<?php echo base_url() ?>/assets/img/modal/<?= $u['gambar_modal']; ?>" data-title="<?= $u['judul_modal']; ?>" data-description="
                   <p><?= $u['deskripsi']; ?></p>
                   <ul class='daftar'>
-                    <li><i class='fa fa-check-square'></i><?= $u['link_modal']; ?></li>
+                  <li><i class='fa fa-check-square'></i> <?= $u['link_modal']; ?> <?= $u['nama_apk']; ?></li>
+                    
                   </ul>">
                   <img class="img-fluid" src="<?php echo base_url() ?>/assets/img/modal/<?= $u['gambar_modal']; ?>" width="200px" alt="SMART BRANDING">
                   <button class="btn btn-outline-primary btn-user btn-block" ><?= $u['judul_kategori']; ?></button>
                 </a>
-            </li>
+        </li>
             <?php endforeach; ?>
         </ul>
 

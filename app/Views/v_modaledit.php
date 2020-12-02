@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>MODAL</title>
+	<title>DATA MASTER</title>
 	<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha/css/bootstrap.css" rel="stylesheet">
     <script src="<?=base_url('assets/ckeditor/ckeditor.js');?>"></script>
 </head>
@@ -10,7 +10,7 @@
 	<div class="row">
         <div class="col-lg-12 margin-tb">
             <div class="pull-left">
-                <h2>DATA MODAL</h2>
+                <h2>DATA MASTER</h2>
             </div>
         </div>
     </div>
@@ -20,45 +20,49 @@
     	<div class="col-lg-12">
     		<div class="row">
             <div class="col-md-12">
-                    <label>Gambar</label><br/>
-                    <?php
-                        if (!empty($kategori->gambar_kategori)) {
-                            echo '<img src="'.base_url("assets/img/modal/$modal->gambar_modal").'" width="150">';
-                        }
-                    ?>
+			<label>Photo Modal</label>
                     <div class="form-group">
-                         <input type="file" name="file_upload" class="form-control"> 
+                         <input type="file" name="file_upload" class="form-control is-invalid"> 
+                    </div>  
+				</div>
+				<div class="col-md-12">
+                    <label>Photo Kategori</label>
+                    <div class="form-group">
+                         <input type="file" name="image_upload" class="form-control is-invalid"> 
                     </div>  
                 </div>
     			<div class="col-md-12">
-    				<label>JUDUL MODAL</label>
-    				<div class="form-group">
-                        <input type="hidden" name="id_modal" class="form-control" value="<?=$modal->id_modal?>">
-                   		 <input type="text" name="judul_modal" class="form-control" value="<?=$modal->judul_modal?>"> 
-                	</div>	
-                </div>
-                <div class="col-md-12">
     				<label>JUDUL KATEGORI</label>
     				<div class="form-group">
-                        <input type="hidden" name="id_kategori" class="form-control" value="<?=$modal->judul_kategori?>">
-                   		 <input type="text" name="judul_kategori" class="form-control" value="<?=$modal->judul_kategori?>"> 
+                   		 <input type="text" name="judul_modal" class="form-control"> 
                 	</div>	
-    			</div>
+				</div>
+				<div class="col-md-12">
+    				<label>JUDUL MODAL</label>
+    				<div class="form-group">
+                   		 <input type="text" name="judul_kategori" class="form-control"> 
+                	</div>	
+				</div>
+				
                 <div class="col-md-12">
     				<label>DESKRIPSI</label>
     				<div class="form-group">
-                        <input type="hidden" name="id" class="form-control" value="<?=$modal->deskripsi?>">
-                   		 <input type="text" name="deskripsi" class="form-control" value="<?=$modal->deskripsi?>"> 
-                	</div>	
-    			</div>
-                <div class="col-md-12">
-    				<label>LINK</label>
-    				<div class="form-group">
-                        <input type="hidden" name="id" class="form-control" value="<?=$modal->link_modal?>">
-                   		 <input type="text" name="link_modal" class="form-control" value="<?=$modal->link_modal?>"> 
+                   		 <input type="text" name="deskripsi" class="form-control"> 
                 	</div>	
     			</div>
 
+				<div class="col-md-12">
+    				<label>NAMA APLIKASI</label>
+    				<div class="form-group">
+                   		 <input type="text" name="nama_apk" class="form-control"> 
+                	</div>	
+    			</div>
+				<div class="col-md-12">
+    				<label>LINK</label>
+    				<div class="form-group">
+                   		 <input type="text" name="link_modal" class="form-control"> 
+                	</div>	
+    			</div>
     			<div class="col-md-12">
     				<div class="form-group">
                              <button class="btn btn-primary" onclick="return confirm('Apakah Anda yakin ?')">Simpan</button>

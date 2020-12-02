@@ -50,6 +50,13 @@
                    		 <input type="text" name="deskripsi" class="form-control"> 
                 	</div>	
     			</div>
+
+				<div class="col-md-12">
+    				<label>NAMA APLIKASI</label>
+    				<div class="form-group">
+                   		 <input type="text" name="nama_apk" class="form-control"> 
+                	</div>	
+    			</div>
 				<div class="col-md-12">
     				<label>LINK</label>
     				<div class="form-group">
