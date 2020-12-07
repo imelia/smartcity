@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Waktu pembuatan: 06 Nov 2020 pada 03.46
+-- Waktu pembuatan: 02 Des 2020 pada 08.23
 -- Versi server: 10.4.14-MariaDB
 -- Versi PHP: 7.4.10
 
@@ -59,7 +59,8 @@ CREATE TABLE `login` (
 --
 
 INSERT INTO `login` (`user_id`, `user_name`, `user_email`, `user_password`, `user_created_at`) VALUES
-(3, 'imelia', 'imeliarosita26@gmail.com', '$2y$10$tdx583KEpgNLE59Ib3BYRuj5C3zkblw9FTMysyCto32DzlxokMCmC', '2020-10-25 11:55:25');
+(3, 'imelia', 'imeliarosita26@gmail.com', '$2y$10$tdx583KEpgNLE59Ib3BYRuj5C3zkblw9FTMysyCto32DzlxokMCmC', '2020-10-25 11:55:25'),
+(4, 'Karimatus Sofiah', 'karimatussofiah@gmail.com', '$2y$10$LZXdl.1w0QVaNl93Np71heeh46eSnDWLtqlSpqqpnXJKE3PFEiQvq', '2020-11-26 03:09:57');
 
 -- --------------------------------------------------------
 
@@ -70,7 +71,10 @@ INSERT INTO `login` (`user_id`, `user_name`, `user_email`, `user_password`, `use
 CREATE TABLE `modal` (
   `id_modal` int(11) NOT NULL,
   `judul_modal` varchar(255) NOT NULL,
+  `judul_kategori` varchar(255) NOT NULL,
+  `gambar_kategori` varchar(255) NOT NULL,
   `deskripsi` varchar(255) NOT NULL,
+  `nama_apk` varchar(255) NOT NULL,
   `link_modal` varchar(255) NOT NULL,
   `gambar_modal` varchar(255) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
@@ -79,8 +83,16 @@ CREATE TABLE `modal` (
 -- Dumping data untuk tabel `modal`
 --
 
-INSERT INTO `modal` (`id_modal`, `judul_modal`, `deskripsi`, `link_modal`, `gambar_modal`) VALUES
-(1, 'aui', 'iuu', 'https://www.youtube.com/watch?v=tuHc44GJ4II', 'ilustrasu-air-laut_20180811_125517.jpg');
+INSERT INTO `modal` (`id_modal`, `judul_modal`, `judul_kategori`, `gambar_kategori`, `deskripsi`, `nama_apk`, `link_modal`, `gambar_modal`) VALUES
+(7, 'ENVIRONMENT', 'ENDLES PROBOLINGGO', 'instagram.png', 'smart branding merupakan langkah awal untuk menuju smartcity di Kab Probolinggo', '', 'https://www.youtube.com/c/SkuyNgoding/videos', 'instagram.png'),
+(8, 'SMART ECONOMY', 'ENDLES PROBOLINGGO', 'instagram_1.png', 'j', '', 'https://www.youtube.com/c/SkuyNgoding/videos', 'instagram_1.png'),
+(9, 'ENVIRONMENT', ' PROBOLINGGO', 'infra_6.png', 'h', '', 'https://www.youtube.com/c/SkuyNgoding/videos', 'infra_6.png'),
+(10, 'smart branding', 'ENDLES PROBOLINGGO', 'twitter.png', 'hh', '', 'https://www.youtube.com/c/SkuyNgoding/videos', 'twitter.png'),
+(11, 'SMART ECONOMY', 'ENDLES PROBOLINGGO', '', 'smart branding merupakan langkah awal untuk menuju smartcity di Kab Probolinggo', '', 'https://www.youtube.com/c/SkuyNgoding/videos', 'smart-city-vector-with-skyscrapers-background_124848-29.jpg'),
+(12, 'SMART ECONOMY', ' PROBOLINGGO', '', 'smart branding merupakan langkah awal untuk menuju smartcity di Kab Probolinggo', '', 'https://www.youtube.com/c/SkuyNgoding/videos', 'bromo-01.jpg'),
+(13, 'SMART ECONOMY', 'ENDLES PROBOLINGGO', '', 'j', '', 'https://www.youtube.com/c/SkuyNgoding/videos', '5dedd7b85049677d981db611_5c65f4ae2f71d67d0ee9f032_hero-image.png'),
+(14, 'a', 'b', '', 'c', '', 'https://situbondokab.go.id/', 'aku.png'),
+(15, 'rima', 'karima', '', 'matus', 'instagram', 'https://situbondokab.go.id/', 'aku.jpeg');
 
 --
 -- Indexes for dumped tables
@@ -118,13 +130,13 @@ ALTER TABLE `kategori`
 -- AUTO_INCREMENT untuk tabel `login`
 --
 ALTER TABLE `login`
-  MODIFY `user_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+  MODIFY `user_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
 
 --
 -- AUTO_INCREMENT untuk tabel `modal`
 --
 ALTER TABLE `modal`
-  MODIFY `id_modal` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `id_modal` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=16;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
